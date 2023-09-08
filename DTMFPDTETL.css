@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media(width<=500px)
+{
+
+
+#nav_right>div
+{
+    border-radius: 11px;
+    padding: 2%;
+}
+
+#end_bar
+{
+height: 300px;
+}
+
+#end_bar_lower
+{
+    flex-direction: column;
+    text-align:center;
+    gap: 10px;
+    display: flex;
+}
+}
+
+nav
+{
+    display: flex;
+    height: 70px;
+    margin: 0px auto;
+    justify-content: space-between;
+    box-shadow: 5px 1px 6px 1px rgb(217, 220, 222);
+}
+
+#nav_left
+{
+    align-self: center;
+    padding-left: 3%;
+}
+
+#nav_left>div>img
+{
+    height: 70%;
+    width: 70%;
+}
+
+#nav_right
+{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    justify-content: end;
+    gap: 10%;
+    margin-right: 3%;
+}
+
+#nav_right>div
+{
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 4px 1px 5px 1px rgb(166, 168, 170);
+    padding: 0.8%;
+    font-weight: 600;
+}
+
+#nav_right>div>a
+{
+    text-decoration: none;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color: white;
+}
+
+
+#end_bar
+{
+    display: flex;
+    height: 160px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#end_bar_upper
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#end_bar_upper>a>img
+{
+    width: 50px;    
+}
+
+#end_bar_middle>img
+{
+    width: 100px;
+}
+
+#end_bar_middle
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#end_bar_lower
+{
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    justify-content:center;
+    color: white;
+    font-weight: 600;
+    font-size: larger;   
+}
+
+#end_bar_lower>a
+{
+    text-decoration: none;
+
+}
+
+#end_bar_lowest
+{
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    justify-content: end;
+    display: flex;
+    width: 98%;
+    padding-bottom:0.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Tour_Name
+{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 600;
+    align-items: center;
+    color: rgb(10, 20, 53);
+    text-align: center;
+}
+
+
+
+
+#container
+{
+    padding-top: 5%;
+    background-image: url(https://assets-global.website-files.com/637f533d357967a5820f3f25/64539d3794e0e18285d13deb_deco_line_new.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-size:90vh;
+    display: flex;
+    flex-direction:column;
+}
+
+#inner_container
+{
+    height:400px;
+    width: 100%;
+    display: flex;
+}
+
+#inner_container_left
+{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    background-color: white;
+}
+
+
+#inner_container_left>img
+{
+    height: 45vh;
+    width: 20vw;  
+}
+
+
+#inner_container_left_mirror
+{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    padding-left: 5%;
+    background-color: white;
+}
+
+
+#inner_container_right
+{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-self: center;
+    gap: 20px;
+}
+
+#inner_container_right_div_1
+{
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#inner_container_right_div_2
+{
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+    width: 90%;
+}
+
+#inner_container_right_div_3
+{
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+    width: 90%;
+}
+
+
+
+
+
+#features
+{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    justify-content: left;
+    padding: 2%;
+    width: 100%;
+}
+
+#features_heading
+{
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+
+#features_fotter
+{
+    padding-left: 4%;
+    padding-top: 3%;
+    font-size: medium;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries For making This Site Responsive Dev by Nikhilesh Rana */
+
+
+
+
+@media(width<=600px)
+{
+
+
+
+#container
+{
+    background-image: url(https://assets-global.website-files.com/637f533d357967a5820f3f25/64539d3794e0e18285d13deb_deco_line_new.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-size:50vh;
+    display: flex;
+    flex-direction:column;
+}
+
+#inner_container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#inner_container_left
+{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    background-color: white;
+}
+
+
+#inner_container_left>img
+{
+    height: 60%;
+    width: 70%; 
+}
+
+
+#inner_container_left_mirror
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    padding-left: 5%;
+    background-color: white;
+}
+
+
+#inner_container_right
+{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-self: center;
+    gap: 10px;
+}
+
+}

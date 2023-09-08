@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media(width<=500px)
+{
+
+
+#nav_right>div
+{
+    border-radius: 11px;
+    padding: 2%;
+}
+
+#end_bar
+{
+height: 300px;
+}
+
+#end_bar_lower
+{
+    flex-direction: column;
+    text-align:center;
+    gap: 10px;
+    display: flex;
+}
+
+#container
+{
+    height: 900px;
+}
+
+}
+
+nav
+{
+    display: flex;
+    height: 70px;
+    margin: 0px auto;
+    justify-content: space-between;
+    box-shadow: 5px 1px 6px 1px rgb(217, 220, 222);
+}
+
+#nav_left
+{
+    align-self: center;
+    padding-left: 3%;
+}
+
+#nav_left>div>img
+{
+    height: 70%;
+    width: 70%;
+}
+
+#nav_right
+{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    justify-content: end;
+    gap: 10%;
+    margin-right: 3%;
+}
+
+#nav_right>div
+{
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 4px 1px 5px 1px rgb(166, 168, 170);
+    padding: 0.8%;
+    font-weight: 600;
+}
+
+#nav_right>div>a
+{
+    text-decoration: none;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color: white;
+}
+
+
+#end_bar
+{
+    display: flex;
+    height: 160px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#end_bar_upper
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#end_bar_upper>a>img
+{
+    width: 50px;    
+}
+
+#end_bar_middle>img
+{
+    width: 100px;
+}
+
+#end_bar_middle
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#end_bar_lower
+{
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    justify-content:center;
+    color: white;
+    font-weight: 600;
+    font-size: larger;   
+}
+
+#end_bar_lower>a
+{
+    text-decoration: none;
+
+}
+
+#end_bar_lowest
+{
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    justify-content: end;
+    display: flex;
+    width: 98%;
+    padding-bottom:0.5%;
+}
+
+
+
+
+
+
+
+
+#container
+{
+    height: 665px;
+    padding-top: 2%;
+    width:100%;
+    display: flex;
+}
+
+#container_left
+{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+
+#container_left>span
+{
+    font-size: 5vw;
+    font-weight: 600;
+    padding-left: 5%;
+    text-align: left;
+}
+
+#container_left>div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 5%;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    padding: 1%;
+    border-radius: 15px;
+}
+
+
+
+
+
+#container_right
+{
+    width:60%;
+    text-align: center;
+}
+
+#container_right>img
+{
+    height: 100%;
+}
+
+
+
+/* Media Queries By Nikhilesh Rana */
+
+@media(width<=501px)
+{
+
+#container_right
+{
+    display: none;
+}
+
+#container
+{
+    background-image: url(Images/contact_us.jpg);
+    background-size: cover;
+}
+
+
+
+#container_left
+{
+    width: 100%;
+}
+
+#container_left>span
+{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
+
+
+}
+
