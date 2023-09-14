@@ -173,6 +173,16 @@ a:visited
 /* Home Starts Here */
 
 
+h1
+{
+    visibility: hidden;
+}
+
+h2
+{
+    visibility: hidden;
+}
+
 #Home
 {
     height: 500px;
